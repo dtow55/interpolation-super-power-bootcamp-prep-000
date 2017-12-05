@@ -1,8 +1,4 @@
 # Write your #display_rainbow method here
-bob     = ["Bob", 46, "Juggler", "555-555-5555"]
-stefani = ["Stefani", 49, "Firefighter", "555-111-1111"]
-
-def print_business_card(person)
-  puts "Name: #{person[0]}, Age: #{person[1]}, Occupation: #{person[2]}"
-  puts "Contact: #{person[3]}"
+def display_rainbow(colors)
+  puts "#{colors[0][0]}: #{colors[0]}, #{colors[1][0]}: #{colors[1]}, #{colors[2][0]}: #{colors[2]}, #{colors[3][0]}: #{colors[3]}, #{colors[4][0]}: #{colors[4]}, #{colors[5][0]}: #{colors[5]}, #{colors[6][0]}: #{colors[6]}, #{colors[7][0]}: #{colors[7]}"
 end
